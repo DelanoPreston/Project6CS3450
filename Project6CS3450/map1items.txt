@@ -1,0 +1,5 @@
+2;5;a dagger;
+4;7;a magic sword;
+2;5;a bag of coins;
+3;6;a sheild;
+9;11;a staff;
