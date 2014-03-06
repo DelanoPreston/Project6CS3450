@@ -7,7 +7,6 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.Serializable;
-import java.security.CodeSource;
 import java.util.Scanner;
 
 import javax.swing.BorderFactory;
@@ -45,6 +44,7 @@ public class Adventure extends JFrame implements ActionListener, Serializable{
 				//Scanner input = new Scanner(new File("C:/Users/Preston Delano/AdventureMap.txt"));
 				Scanner input = new Scanner(new File(path + "/AdventureMap.txt"));
 				stringInput = input.useDelimiter("\\Z").next();
+				input.close();
 			}
 			catch (FileNotFoundException e)
 			{
